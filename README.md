@@ -16,3 +16,5 @@ Parameters:
 - "-R" – (optional) enables recursive directory synchronization
 - [size_threshold_bytes] – (optional) file size threshold in bytes that determines the copy method; default is 104857600 (100 MB).
 Files below the threshold use read/write, while larger files use mmap.
+
+You can wake the daemon immediately by sending it the SIGUSR1 signal.
