@@ -18,3 +18,7 @@ Parameters:
 Files below the threshold use read/write, while larger files use mmap.
 
 You can wake the daemon immediately by sending it the SIGUSR1 signal.
+---
+## Program in Action
+
+![Program Screenshot](Daemon-program.png)
